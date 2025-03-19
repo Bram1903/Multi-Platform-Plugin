@@ -14,7 +14,7 @@ public class TemplatePlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        new Wolf("Bram").bark();
+        new Wolf("Bram", "Bukkit").howl();
     }
 
     @Override

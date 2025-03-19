@@ -17,7 +17,7 @@ public class PluginTemplate {
 
     @Subscribe
     public void onProxyInitialization(ProxyInitializeEvent ignoredEvent) {
-        new Wolf("Bram").bark();
+        new Wolf("Bram", "Velocity").howl();
     }
 
     @Subscribe()
