@@ -1,43 +1,16 @@
 [versions]
-adventure = "4.18.0"
-packetevents = "2.7.0"
-betterreload = "v1.0.0"
-guava = "33.3.1-jre"
 paper = "1.21.4-R0.1-SNAPSHOT"
 velocity = "3.4.0-SNAPSHOT"
-bungeecord = "1.21-R0.1-SNAPSHOT"
-sponge = "8.0.0"
-snakeyaml = "2.2"
 run-paper = "2.3.1"
 lombok = "1.18.36"
 shadow = "8.3.5"
-spongeGradle = "2.2.0"
 
 [libraries]
-adventure-api = { group = "net.kyori", name = "adventure-api", version.ref = "adventure" }
-adventure-text-serializer-gson = { group = "net.kyori", name = "adventure-text-serializer-gson", version.ref = "adventure" }
-adventure-text-serializer-legacy = { group = "net.kyori", name = "adventure-text-serializer-legacy", version.ref = "adventure" }
-adventure-text-serializer-gson-legacy = { group = "net.kyori", name = "adventure-text-serializer-gson-legacy-impl", version.ref = "adventure" }
-adventure-nbt = { group = "net.kyori", name = "adventure-nbt", version.ref = "adventure" }
-packetevents-api = { group = "com.github.retrooper", name = "packetevents-api", version.ref = "packetevents" }
-packetevents-spigot = { group = "com.github.retrooper", name = "packetevents-spigot", version.ref = "packetevents" }
-packetevents-velocity = { group = "com.github.retrooper", name = "packetevents-velocity", version.ref = "packetevents" }
-packetevents-bungeecord = { group = "com.github.retrooper", name = "packetevents-bungeecord", version.ref = "packetevents" }
-packetevents-sponge = { group = "com.github.retrooper", name = "packetevents-sponge", version.ref = "packetevents" }
-snakeyaml = { group = "org.yaml", name = "snakeyaml", version.ref = "snakeyaml" }
 lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
-betterreload-api = { group = "com.github.amnoah.betterreload", name = "api", version.ref = "betterreload" }
-guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
 paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
 velocity = { group = "com.velocitypowered", name = "velocity-api", version.ref = "velocity" }
-bungeecord = { group = "net.md-5", name = "bungeecord-api", version.ref = "bungeecord" }
-sponge = { group = "org.spongepowered", name = "spongeapi", version.ref = "sponge" }
-
-[bundles]
-adventure = ["adventure-api", "adventure-text-serializer-gson", "adventure-text-serializer-legacy", "adventure-nbt"]
 
 [plugins]
 run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }
 run-velocity = { id = "xyz.jpenilla.run-velocity", version.ref = "run-paper" }
 shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
-spongeGradle = { id = "org.spongepowered.gradle.plugin", version.ref = "spongeGradle" }
