@@ -1,0 +1,8 @@
+name: TemplatePlugin
+author: Bram
+description: ${description}
+main: com.deathmotion.templateplugin.TemplatePlugin
+version: ${version}
+api-version: '1.21'
+folia-supported: true
+load: POSTWORLD

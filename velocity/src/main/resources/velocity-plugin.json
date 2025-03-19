@@ -1,0 +1,10 @@
+{
+  "id": "plugintemplate",
+  "name": "PluginTemplate",
+  "version": "${version}",
+  "description": "${description}",
+  "authors": [
+    "Bram"
+  ],
+  "main": "com.deathmotion.plugintemplate.PluginTemplate"
+}
